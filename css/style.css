@@ -101,4 +101,55 @@ body {
   padding: 15px 0;
   font-size: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.main__info {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.main__info h2 {
+  font-size: 30px;
+  text-align: center;
+  color: hsl(228deg, 39%, 23%);
+  margin-bottom: 25px;
+}
+.main__info p {
+  color: hsl(227deg, 12%, 61%);
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.7;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 95%;
+  margin-left: 5%;
+}
+.main__container .info .title {
+  margin-bottom: 10px;
+}
+.main__container .info .title p {
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(228deg, 39%, 23%);
+  background-color: hsl(13deg, 100%, 96%);
+  padding: 8px 0;
+}
+.main__container .info .title p span {
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(12deg, 88%, 59%);
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.main__container .info p {
+  color: hsl(227deg, 12%, 61%);
+  line-height: 1.7;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */
