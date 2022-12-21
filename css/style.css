@@ -152,4 +152,61 @@ body {
   color: hsl(227deg, 12%, 61%);
   line-height: 1.7;
   font-size: 13px;
+}
+
+.testimonials .testimonials__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonials .testimonials__container h2 {
+  font-size: 30px;
+  color: hsl(228deg, 39%, 23%);
+  margin-bottom: 50px;
+}
+.testimonials .testimonials__container .testimonial-card {
+  text-align: center;
+  background-color: hsl(0deg, 0%, 98%);
+}
+.testimonials .testimonials__container .testimonial-card .avatar {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.testimonials .testimonials__container .testimonial-card .avatar img {
+  width: 100%;
+}
+.testimonials .testimonials__container .testimonial-card .name {
+  color: hsl(228deg, 39%, 23%);
+  font-size: 16px;
+  font-weight: 700;
+}
+.testimonials .testimonials__container .testimonial-card p {
+  color: hsl(227deg, 12%, 61%);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 auto;
+  padding: 35px 20px;
+}
+.testimonials .testimonials__container .controler {
+  color: black;
+  background-color: orange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.testimonials .testimonials__container .btn {
+  border: none;
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(12deg, 88%, 59%);
+  border-radius: 50px;
+  width: 130px;
+  padding: 15px 0;
+  font-size: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
