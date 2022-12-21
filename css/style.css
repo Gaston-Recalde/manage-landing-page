@@ -236,4 +236,66 @@ body {
   font-size: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
+}
+
+.footer {
+  background-color: hsl(233deg, 12%, 13%);
+}
+.footer__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0 25px 0;
+  text-align: center;
+}
+.footer__container form {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.footer__container form input {
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+  padding: 0 25px;
+  height: 40px;
+  margin-right: 10px;
+}
+.footer__container form .btn {
+  background-color: hsl(12deg, 88%, 59%);
+  color: hsl(0deg, 0%, 98%);
+  padding: 10px 25px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+}
+.footer__container .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 35px;
+}
+.footer__container .links ul {
+  text-align: left;
+}
+.footer__container .links ul li {
+  color: hsl(0deg, 0%, 98%);
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.footer__container .social {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.footer__container .social i {
+  font-size: 32px;
+  color: hsl(0deg, 0%, 98%);
+}
+.footer__container .logo {
+  margin-bottom: 50px;
+}
+.footer__container .copy p {
+  color: hsl(227deg, 12%, 61%);
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
