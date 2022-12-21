@@ -22,4 +22,47 @@ body {
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+.nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__logo {
+  width: 125px;
+}
+.nav__logo img {
+  width: 100%;
+}
+.nav__ul {
+  display: none;
+}
+.nav__ul-active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  gap: 25px;
+  padding: 35px 0;
+  border-radius: 8px;
+  background-color: hsl(0deg, 0%, 98%);
+}
+.nav__ul-active li {
+  font-size: 15px;
+  font-weight: 700;
+}
+.nav__btns .btn-close {
+  display: none;
+}
+.nav__button {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
