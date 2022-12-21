@@ -154,6 +154,33 @@ body {
   font-size: 13px;
 }
 
+.simplify {
+  background-color: hsl(12deg, 88%, 59%);
+}
+.simplify .simplify__container {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.simplify .simplify__container h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: hsl(0deg, 0%, 98%);
+  padding: 20px;
+}
+.simplify .simplify__container .btn {
+  border: none;
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(12deg, 88%, 59%);
+  border-radius: 50px;
+  width: 130px;
+  padding: 15px 0;
+  font-size: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .testimonials .testimonials__container {
   width: 90%;
   max-width: 1200px;

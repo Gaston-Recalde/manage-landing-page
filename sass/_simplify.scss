@@ -1,0 +1,28 @@
+.simplify{
+    background-color: $bright-red;
+    .simplify__container{
+        width: 90%;
+        max-width: 1200px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 100px 0;
+
+        h2{
+            font-size: 36px;
+            font-weight: 500;
+            color: $very-light-gray;
+            padding: 20px;
+        }
+
+        .btn{
+            border: none;
+            background-color: $very-light-gray;
+            color: $bright-red;
+            border-radius: 50px;
+            width: 130px;
+            padding: 15px 0;
+            font-size: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}
