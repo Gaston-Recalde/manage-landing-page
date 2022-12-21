@@ -1,0 +1,43 @@
+.header{
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    // margin-top: 50px;
+    // border: 1px solid black;
+
+    &__img{
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__info{
+        text-align: center;
+
+        .title{
+            font-size: 36px;
+            color: $dark-blue;
+            margin-bottom: 10px;
+        }
+
+        .paragraph{
+            font-size: 16px;
+            color: $dark-grayish-blue;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .btn{
+            border: none;
+            color: $very-light-gray;
+            background-color: $bright-red;
+            border-radius: 50px;
+            width: 130px;
+            padding: 15px 0;
+            font-size: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}

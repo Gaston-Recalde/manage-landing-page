@@ -65,4 +65,40 @@ body {
 }
 .nav__button {
   display: none;
+}
+
+.header {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.header__img {
+  width: 100%;
+}
+.header__img img {
+  width: 100%;
+}
+.header__info {
+  text-align: center;
+}
+.header__info .title {
+  font-size: 36px;
+  color: hsl(228deg, 39%, 23%);
+  margin-bottom: 10px;
+}
+.header__info .paragraph {
+  font-size: 16px;
+  color: hsl(227deg, 12%, 61%);
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+.header__info .btn {
+  border: none;
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(12deg, 88%, 59%);
+  border-radius: 50px;
+  width: 130px;
+  padding: 15px 0;
+  font-size: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }/*# sourceMappingURL=style.css.map */
