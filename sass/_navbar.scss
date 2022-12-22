@@ -49,3 +49,47 @@
         display: none;
     }
 }
+
+@media screen and (min-width:1024px) {
+    .nav{
+        margin-top: 50px;
+
+        &__logo{
+            padding-top: 10px;
+        }
+
+        &__ul{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            gap: 25px;
+            background-color: transparent;
+            align-items: flex-start;
+
+            position: inherit;
+            top: 0;
+            width: auto;
+
+            li{
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+
+        &__btns{
+            display: none;
+        }
+
+        &__button{
+            display: inline-block;
+            border: none;
+            color: $very-light-gray;
+            background-color: $bright-red;
+            border-radius: 50px;
+            width: 130px;
+            padding: 15px 0;
+            font-size: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}

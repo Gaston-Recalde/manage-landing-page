@@ -67,6 +67,43 @@ body {
   display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .nav {
+    margin-top: 50px;
+  }
+  .nav__logo {
+    padding-top: 10px;
+  }
+  .nav__ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 25px;
+    background-color: transparent;
+    align-items: flex-start;
+    position: inherit;
+    top: 0;
+    width: auto;
+  }
+  .nav__ul li {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .nav__btns {
+    display: none;
+  }
+  .nav__button {
+    display: inline-block;
+    border: none;
+    color: hsl(0deg, 0%, 98%);
+    background-color: hsl(12deg, 88%, 59%);
+    border-radius: 50px;
+    width: 130px;
+    padding: 15px 0;
+    font-size: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
 .header {
   width: 90%;
   max-width: 1200px;
