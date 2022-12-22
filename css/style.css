@@ -233,6 +233,53 @@ body {
   font-size: 13px;
 }
 
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 90%;
+    display: flex;
+    gap: 10%;
+  }
+  .main__info {
+    width: 45%;
+  }
+  .main__info h2 {
+    text-align: left;
+    font-size: 38px;
+  }
+  .main__info p {
+    text-align: left;
+    width: 344px;
+  }
+  .main__container {
+    width: 45%;
+    margin-left: 0;
+  }
+  .main__container .info .title p {
+    margin-left: 0;
+    background-color: transparent;
+  }
+  .main__container .info p {
+    margin-left: 75px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main {
+    margin-bottom: 150px;
+  }
+  .main__info h2 {
+    font-size: 42px;
+  }
+  .main__info p {
+    font-size: 17px;
+    width: 350px;
+  }
+  .main__container .info .title p {
+    font-size: 17px;
+  }
+  .main__container .info p {
+    font-size: 17px;
+  }
+}
 .simplify {
   background-color: hsl(12deg, 88%, 59%);
 }
