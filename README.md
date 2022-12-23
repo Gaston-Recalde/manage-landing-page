@@ -15,7 +15,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/manage-landing-page.png)
 
 ### Links
 

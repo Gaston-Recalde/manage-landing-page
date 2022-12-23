@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
   <title>Manage landing page</title>
 
@@ -96,22 +97,22 @@
 
   </main>
 
-  <section class="testimonials">
+  <section class="testimonials mySwiper">
+    
+    <h2>What they’ve said</h2>
 
-    <div class="testimonials__container">
+    <div class="testimonials__container swiper-wrapper">  
 
-      <h2>What they’ve said</h2>
-
-      <!-- <div class="testimonial-card">
+      <div class="testimonial-card swiper-slide">
         <div class="avatar">
           <img src="./images/avatar-anisha.png" alt="Avatar Anisha">
         </div>
         <span class="name">Anisha Li</span>
         <p>“Manage has supercharged our team’s workflow. The ability to maintain 
           visibility on larger milestones at all times keeps everyone motivated.”</p>
-      </div> -->
+      </div>
 
-      <div class="testimonial-card">
+      <div class="testimonial-card swiper-slide">
         <div class="avatar">
           <img src="./images/avatar-ali.png" alt="Avatar Ali">
         </div>
@@ -121,7 +122,7 @@
           more focused.”</p>
       </div>
 
-      <!-- <div class="testimonial-card">
+      <div class="testimonial-card swiper-slide">
         <div class="avatar">
           <img src="./images/avatar-richard.png" alt="Avatar Richard">
         </div>
@@ -129,9 +130,9 @@
         <p>“Manage allows us to provide structure and process. It keeps us organized 
           and focused. I can’t stop recommending them to everyone I talk to!”
         </p>
-      </div> -->
+      </div>
 
-      <!-- <div class="testimonial-card">
+      <div class="testimonial-card swiper-slide">
         <div class="avatar">
           <img src="./images/avatar-shanai.png" alt="Avatar Shanai">
         </div>
@@ -139,13 +140,13 @@
         <p>“Their software allows us to track, manage and collaborate on our projects 
           from anywhere. It keeps the whole team in-sync without being intrusive.”
         </p>
-      </div> -->
-
-      <div class="controler">0000</div>
-
-      <button class="btn">Get Started</button>
+      </div>
 
     </div>
+
+    <div class="swiper-pagination"></div>
+
+    <button class="btn">Get Started</button>
 
   </section>
 
@@ -200,13 +201,32 @@
 
     </div>
 
-  </footer>
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
-  </div> -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
+    </div>
 
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop:true,
+      allowTouchMouve: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints:{
+            1024:{
+                slidesPerView: 2
+            },
+        }
+    });
+  </script>
+
 </body>
 </html>
