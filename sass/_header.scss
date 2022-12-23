@@ -81,6 +81,11 @@
             .paragraph{
                 width: 344px;
             }
+
+            .btn:hover{
+                cursor: pointer;
+                opacity: 0.75;
+            }
         }
     }
 }

@@ -89,6 +89,10 @@ body {
     font-size: 15px;
     font-weight: 500;
   }
+  .nav__ul li:hover {
+    cursor: pointer;
+    color: hsl(227deg, 12%, 61%);
+  }
   .nav__btns {
     display: none;
   }
@@ -102,6 +106,10 @@ body {
     padding: 15px 0;
     font-size: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .nav__button:hover {
+    cursor: pointer;
+    opacity: 0.75;
   }
 }
 .header {
@@ -172,6 +180,10 @@ body {
   }
   .header__info .paragraph {
     width: 344px;
+  }
+  .header__info .btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -319,6 +331,9 @@ body {
     width: 45%;
     padding: 0;
   }
+  .simplify .simplify__container .btn:hover {
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 1200px) {
   .simplify .simplify__container h2 {
@@ -391,6 +406,10 @@ body {
   .testimonials .testimonials__container h2 {
     font-size: 38px;
   }
+  .testimonials .testimonials__container .btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
 }
 @media screen and (min-width: 1200px) {
   .testimonials .testimonials__container h2 {
@@ -414,6 +433,7 @@ body {
 .footer__container form {
   width: 100%;
   margin-bottom: 50px;
+  position: relative;
 }
 .footer__container form input {
   width: 250px;
@@ -422,6 +442,16 @@ body {
   padding: 0 25px;
   height: 40px;
   margin-right: 10px;
+}
+.footer__container form .input__small {
+  display: none;
+}
+.footer__container form .email__error {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: 20%;
+  color: hsl(12deg, 88%, 59%);
 }
 .footer__container form .btn {
   background-color: hsl(12deg, 88%, 59%);
@@ -463,6 +493,11 @@ body {
   font-size: 12px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__container form .email__error {
+    left: 30%;
+  }
+}
 @media screen and (min-width: 1024px) {
   .footer__container {
     padding: 75px 0;
@@ -475,6 +510,16 @@ body {
     display: flex;
     justify-content: flex-end;
   }
+  .footer__container form input:focus {
+    outline: none;
+    border: 2px solid hsl(12deg, 88%, 59%);
+  }
+  .footer__container form .email__error {
+    bottom: 15px;
+  }
+  .footer__container form .btn:hover {
+    cursor: pointer;
+  }
   .footer__container .links {
     grid-area: link;
     margin-bottom: 0;
@@ -482,9 +527,17 @@ body {
     align-items: flex-start;
     gap: 10px;
   }
+  .footer__container .links ul li:hover {
+    cursor: pointer;
+    color: hsl(12deg, 88%, 59%);
+  }
   .footer__container .social {
     grid-area: social;
     margin-bottom: 0;
+  }
+  .footer__container .social i:hover {
+    cursor: pointer;
+    color: hsl(12deg, 88%, 59%);
   }
   .footer__container .logo {
     grid-area: logo;
@@ -504,6 +557,9 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__container {
     padding: 75px 0;
+  }
+  .footer__container form .email__error {
+    bottom: 25px;
   }
   .footer__container .links ul li {
     margin-bottom: 25px;

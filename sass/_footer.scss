@@ -11,6 +11,7 @@
         form{
             width: 100%;
             margin-bottom: 50px;
+            position: relative;
 
             input{
                 width: 250px;
@@ -21,8 +22,19 @@
                 margin-right: 10px;
             }
 
+            .input__small{
+                display: none;
+            }
+
+            .email__error{
+                display: block;
+                position: absolute;
+                bottom: -20px;
+                left: 20%;
+                color: $bright-red;
+            }
+
             .btn{
-                // width: 50px;
                 background-color: $bright-red;
                 color: $very-light-gray;
                 padding: 10px 25px;
@@ -72,6 +84,22 @@
     }
 }
 
+@media screen and (min-width:768px) {
+    .footer{
+        &__container{
+            form{
+                .email__error{
+                    // display: block;
+                    // position: absolute;
+                    // bottom: -20px;
+                    left: 30%;
+                    // color: $bright-red;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width:1024px) {
     .footer{
         &__container{
@@ -88,6 +116,20 @@
                 margin-bottom: 0;
                 display: flex;
                 justify-content: flex-end;
+
+                input:focus{
+                    outline: none;
+                    border: 2px solid $bright-red;
+                }
+
+                .email__error{
+                    bottom: 15px;
+                    // left: ;
+                }
+
+                .btn:hover{
+                    cursor: pointer;
+                }
             }
             
             .links{
@@ -96,11 +138,23 @@
                 justify-content: space-evenly;
                 align-items: flex-start;
                 gap: 10px;
+
+                ul{
+                    li:hover{
+                        cursor: pointer;
+                        color: $bright-red;
+                    }
+                }
             }
 
             .social{
                 grid-area: social;
                 margin-bottom: 0;
+
+                i:hover{
+                    cursor: pointer;
+                    color: $bright-red;
+                }
             }
 
             .logo{
@@ -127,6 +181,12 @@
     .footer{
         &__container{
             padding: 75px 0;
+
+            form{
+                .email__error{
+                    bottom: 25px;
+                }
+            }
             
             .links{
 
