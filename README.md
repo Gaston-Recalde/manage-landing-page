@@ -19,7 +19,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://graceful-truffle-195a6e.netlify.app/)
 
 ## My process
 
